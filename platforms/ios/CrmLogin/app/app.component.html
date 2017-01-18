@@ -1,0 +1,21 @@
+<StackLayout class="up">
+    <Image src="~/images/Smartupcode.jpg" stretch="none" horizontalAlignment="center" class="img-rounded"></Image>
+<TextField hint="Email Address" keyboardType="email" [text]="email"
+           autocorrect="false" autocapitalizationType="none"></TextField>
+<TextField hint="Password" secure="true"></TextField>
+<StackLayout orientation="horizontal" class="down">
+    <Button text="Log in" class="submit-button" width="80px" (tap)="submit()"></Button>
+    <Label text="Lost your password?"></Label>
+</StackLayout>
+    <StackLayout orientation="horizontal" class="down">
+        <Label text="   New to SmartUP CRM?"></Label>
+        <Label text="    Create Account" style="color: dodgerblue"></Label>
+    </StackLayout>
+    <WrapLayout class="allrights"> orientation="horizontal" class="allrights">
+        <Label text="©2016 All Rights Reserved to SmartUpCode Innovation & Technology Company. " textWrap="true" horizontalAlignment="center"></Label>
+    </WrapLayout>
+    <WrapLayout class="privacy"> orientation="horizontal" class="allrights">
+        <Label text="   Privacy Policy"></Label>
+        <Label text="   Terms & Conditions"></Label>
+    </WrapLayout>
+</StackLayout>
