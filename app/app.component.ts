@@ -7,7 +7,7 @@ import { Component } from "@angular/core";
 })
 export class AppComponent {
 
-    email="info@succrm.com";
+    email="sdad";
     submit(){
         alert("sizin Emailiniz " + this.email);
     }

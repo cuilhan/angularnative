@@ -10,7 +10,7 @@ exports.findProjectDir = function findProjectDir() {
         if (path.basename(candidateDir) === 'node_modules') {
             continue;
         }
-        var packageJsonFile = path.join(candidateDir, 'package.json');
+        var packageJsonFile = path.join(candidateDir, 'en.json');
         if (fs.existsSync(packageJsonFile)) {
             return candidateDir;
         }
